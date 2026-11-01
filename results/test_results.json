@@ -1,0 +1,530 @@
+{
+  "run_at_utc": "2026-10-31T11:56:34.156367+00:00",
+  "live_requested": true,
+  "model": "qwen2.5-3b-instruct-q4_k_m.gguf",
+  "note": "Reference answers are hand-reviewed expectations, not generated answers. Live answers require manual factual review even when evidence validation passes.",
+  "index": {
+    "schema": 2,
+    "embedding": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_backend": "semantic",
+    "pdf_sha256": "d0b4c81836a842ee0e05d3ce757108839a3eba0677ad26f0b1b016de74d2952d",
+    "chunks": 34,
+    "dimension": 384,
+    "page_numbering": "1-based physical PDF pages"
+  },
+  "cases": [
+    {
+      "question": "What are the total bootcamp fees?",
+      "expected_pages": [
+        16
+      ],
+      "reference_answer": "The total fees are R 29,950.",
+      "retrieved_sources": [
+        "Page 16"
+      ],
+      "retrieval_hit": true,
+      "retrieved_chunks": [
+        {
+          "page": 16,
+          "chunk_id": "p16-c0",
+          "score": 0.597982
+        }
+      ],
+      "generated_answer": "Total Fees: R 29,950",
+      "returned_source": "Page 16",
+      "status": "LIVE_RESPONSE",
+      "model_output": {
+        "found": true,
+        "answer": "Total Fees: R 29,950",
+        "chunk_id": "p16-c0"
+      },
+      "manual_review": {
+        "result": "PASS",
+        "note": "Correct total fee: R 29,950."
+      }
+    },
+    {
+      "question": "When must fees be paid in full?",
+      "expected_pages": [
+        16
+      ],
+      "reference_answer": "Before orientation on 30 March 2026.",
+      "retrieved_sources": [
+        "Page 16"
+      ],
+      "retrieval_hit": true,
+      "retrieved_chunks": [
+        {
+          "page": 16,
+          "chunk_id": "p16-c0",
+          "score": 0.451224
+        }
+      ],
+      "generated_answer": "Fees must be paid in full before the orientation day, which is scheduled for 30 March 2026.",
+      "returned_source": "Page 16",
+      "status": "LIVE_RESPONSE",
+      "model_output": {
+        "found": true,
+        "answer": "Fees must be paid in full before the orientation day",
+        "chunk_id": "p16-c0"
+      },
+      "manual_review": {
+        "result": "PASS",
+        "note": "Includes both the before-orientation condition and 30 March 2026 date."
+      }
+    },
+    {
+      "question": "What minimum internet speeds are recommended?",
+      "expected_pages": [
+        5
+      ],
+      "reference_answer": "10 Mbps download and 3 Mbps upload.",
+      "retrieved_sources": [
+        "Page 5"
+      ],
+      "retrieval_hit": true,
+      "retrieved_chunks": [
+        {
+          "page": 5,
+          "chunk_id": "p5-c0",
+          "score": 0.500424
+        }
+      ],
+      "generated_answer": "a high-speed internet connection is essential.\nRecommended minimum speeds are 10 Mbps for download and 3\nMbps for upload.",
+      "returned_source": "Page 5",
+      "status": "LIVE_RESPONSE",
+      "model_output": {
+        "found": true,
+        "answer": "a high-speed internet connection is essential.\nRecommended minimum speeds are 10 Mbps for download and 3\nMbps for upload.",
+        "chunk_id": "p5-c0"
+      },
+      "manual_review": {
+        "result": "PASS",
+        "note": "Correct minimum speeds: 10 Mbps download, 3 Mbps upload."
+      }
+    },
+    {
+      "question": "When are live classes held?",
+      "expected_pages": [
+        11
+      ],
+      "reference_answer": "For the first 12 weeks, Wednesdays 6–8 pm and Mondays 9–11 am; afterwards Mondays 9–11 am.",
+      "retrieved_sources": [
+        "Page 11",
+        "Page 12"
+      ],
+      "retrieval_hit": true,
+      "retrieved_chunks": [
+        {
+          "page": 11,
+          "chunk_id": "p11-c0",
+          "score": 0.70123
+        },
+        {
+          "page": 12,
+          "chunk_id": "p12-c0",
+          "score": 0.405193
+        }
+      ],
+      "generated_answer": "We will have live classes every 6 pm - 8 pm on Wednesdays and 9 am - 11 am on Mondays for the first 12 weeks of the bootcamp which will then reduce to 1 live class every Monday at 9 am - 11 am.",
+      "returned_source": "Page 11",
+      "status": "LIVE_RESPONSE",
+      "model_output": {
+        "found": true,
+        "answer": "We will have live classes every 6 pm - 8 pm on Wednesdays and 9 am - 11 am on Mondays",
+        "chunk_id": "p11-c0"
+      },
+      "manual_review": {
+        "result": "PASS",
+        "note": "Includes the first 12 weeks and the subsequent Monday-only schedule."
+      }
+    },
+    {
+      "question": "Where must assignments be submitted?",
+      "expected_pages": [
+        13
+      ],
+      "reference_answer": "Google Classroom.",
+      "retrieved_sources": [
+        "Page 13"
+      ],
+      "retrieval_hit": true,
+      "retrieved_chunks": [
+        {
+          "page": 13,
+          "chunk_id": "p13-c0",
+          "score": 0.411693
+        }
+      ],
+      "generated_answer": "Google classroom",
+      "returned_source": "Page 13",
+      "status": "LIVE_RESPONSE",
+      "model_output": {
+        "found": true,
+        "answer": "Google classroom",
+        "chunk_id": "p13-c0"
+      },
+      "manual_review": {
+        "result": "PASS",
+        "note": "Correct submission platform: Google Classroom."
+      }
+    },
+    {
+      "question": "How much does the final project contribute to the final grade?",
+      "expected_pages": [
+        14
+      ],
+      "reference_answer": "35%.",
+      "retrieved_sources": [
+        "Page 14"
+      ],
+      "retrieval_hit": true,
+      "retrieved_chunks": [
+        {
+          "page": 14,
+          "chunk_id": "p14-c0",
+          "score": 0.463392
+        }
+      ],
+      "generated_answer": "35%",
+      "returned_source": "Page 14",
+      "status": "LIVE_RESPONSE",
+      "model_output": {
+        "found": true,
+        "answer": "35%",
+        "chunk_id": "p14-c0"
+      },
+      "manual_review": {
+        "result": "PASS",
+        "note": "Correct final-project weighting: 35%."
+      }
+    },
+    {
+      "question": "Who is the lead instructor?",
+      "expected_pages": [
+        15
+      ],
+      "reference_answer": "Kago Kola.",
+      "retrieved_sources": [
+        "Page 15"
+      ],
+      "retrieval_hit": true,
+      "retrieved_chunks": [
+        {
+          "page": 15,
+          "chunk_id": "p15-c0",
+          "score": 0.725968
+        }
+      ],
+      "generated_answer": "Kago Kola",
+      "returned_source": "Page 15",
+      "status": "LIVE_RESPONSE",
+      "model_output": {
+        "found": true,
+        "answer": "Kago Kola",
+        "chunk_id": "p15-c0"
+      },
+      "manual_review": {
+        "result": "PASS",
+        "note": "Correct staff member and role: Kago Kola, Lead Instructor."
+      }
+    },
+    {
+      "question": "Who is my dedicated tutor?",
+      "expected_pages": [
+        20
+      ],
+      "reference_answer": "Dave.",
+      "retrieved_sources": [
+        "Page 20"
+      ],
+      "retrieval_hit": true,
+      "retrieved_chunks": [
+        {
+          "page": 20,
+          "chunk_id": "p20-c0",
+          "score": 0.520052
+        },
+        {
+          "page": 20,
+          "chunk_id": "p20-c1",
+          "score": 0.455885
+        }
+      ],
+      "generated_answer": "Dave",
+      "returned_source": "Page 20",
+      "status": "LIVE_RESPONSE",
+      "model_output": {
+        "found": true,
+        "answer": "Dave",
+        "chunk_id": "p20-c0"
+      },
+      "manual_review": {
+        "result": "PASS",
+        "note": "Correct dedicated tutor: Dave."
+      }
+    },
+    {
+      "question": "Which channel is used for communication after orientation?",
+      "expected_pages": [
+        18
+      ],
+      "reference_answer": "Discord.",
+      "retrieved_sources": [
+        "Page 18"
+      ],
+      "retrieval_hit": true,
+      "retrieved_chunks": [
+        {
+          "page": 18,
+          "chunk_id": "p18-c0",
+          "score": 0.41123
+        }
+      ],
+      "generated_answer": "Discord",
+      "returned_source": "Page 18",
+      "status": "LIVE_RESPONSE",
+      "model_output": {
+        "found": true,
+        "answer": "Discord",
+        "chunk_id": "p18-c0"
+      },
+      "manual_review": {
+        "result": "PASS",
+        "note": "Correct post-orientation communication channel: Discord."
+      }
+    },
+    {
+      "question": "What do green calendar tiles mean?",
+      "expected_pages": [
+        9
+      ],
+      "reference_answer": "Same day completion.",
+      "retrieved_sources": [
+        "Page 9"
+      ],
+      "retrieval_hit": true,
+      "retrieved_chunks": [
+        {
+          "page": 9,
+          "chunk_id": "p9-c0",
+          "score": 0.710111
+        }
+      ],
+      "generated_answer": "Green Tiles (Same Day Completion): Demonstrates your ability to\nmeet deadlines promptly, showcasing a strong work ethic and\ncommitment to timely task completion.",
+      "returned_source": "Page 9",
+      "status": "LIVE_RESPONSE",
+      "model_output": {
+        "found": true,
+        "answer": "Green Tiles (Same Day Completion): Demonstrates your ability to\nmeet deadlines promptly, showcasing a strong work ethic and\ncommitment to timely task completion.",
+        "chunk_id": "p9-c0"
+      },
+      "manual_review": {
+        "result": "PASS",
+        "note": "Correct interpretation: same day completion."
+      }
+    },
+    {
+      "question": "What is the minimum SSD storage?",
+      "expected_pages": [
+        5
+      ],
+      "reference_answer": "At least 256 GB is recommended.",
+      "retrieved_sources": [
+        "Page 5"
+      ],
+      "retrieval_hit": true,
+      "retrieved_chunks": [
+        {
+          "page": 5,
+          "chunk_id": "p5-c0",
+          "score": 0.373871
+        }
+      ],
+      "generated_answer": "A solid-state drive (SSD) with at least 256 GB of storage is recommended for faster data access and improved performance.",
+      "returned_source": "Page 5",
+      "status": "LIVE_RESPONSE",
+      "model_output": {
+        "found": true,
+        "answer": "A solid-state drive (SSD) with at least 256 GB of storage is recommended for faster data access and improved performance.",
+        "chunk_id": "p5-c0"
+      },
+      "manual_review": {
+        "result": "PASS",
+        "note": "Correct recommended minimum SSD: 256 GB."
+      }
+    },
+    {
+      "question": "When are tutor support hours?",
+      "expected_pages": [
+        20
+      ],
+      "reference_answer": "Tuesdays 2–4 pm and 6–8 pm; Thursdays 10 am–12 pm and 6–8 pm.",
+      "retrieved_sources": [
+        "Page 20"
+      ],
+      "retrieval_hit": true,
+      "retrieved_chunks": [
+        {
+          "page": 20,
+          "chunk_id": "p20-c1",
+          "score": 0.553986
+        }
+      ],
+      "generated_answer": "Tutors will host support hours every\nTuesdays 2pm to 4 pm and 6 pm to 8 pm\nand\nThursdays at 10am to 12 pm and 6 pm to 8 pm",
+      "returned_source": "Page 20",
+      "status": "LIVE_RESPONSE",
+      "model_output": {
+        "found": true,
+        "answer": "Tutors will host support hours every\nTuesdays 2pm to 4 pm and 6 pm to 8 pm\nand\nThursdays at 10am to 12 pm and 6 pm to 8 pm",
+        "chunk_id": "p20-c1"
+      },
+      "manual_review": {
+        "result": "PASS",
+        "note": "Includes both Tuesday slots and both Thursday slots."
+      }
+    },
+    {
+      "question": "Which financing partners are available?",
+      "expected_pages": [
+        16
+      ],
+      "reference_answer": "Capitec and Manati.",
+      "retrieved_sources": [
+        "Page 16",
+        "Page 17"
+      ],
+      "retrieval_hit": true,
+      "retrieved_chunks": [
+        {
+          "page": 17,
+          "chunk_id": "p17-c0",
+          "score": 0.448627
+        },
+        {
+          "page": 16,
+          "chunk_id": "p16-c0",
+          "score": 0.37678
+        }
+      ],
+      "generated_answer": "Financing with Capitec and Manati",
+      "returned_source": "Page 16",
+      "status": "LIVE_RESPONSE",
+      "model_output": {
+        "found": true,
+        "answer": "Financing with Capitec and Manati",
+        "chunk_id": "p16-c0"
+      },
+      "manual_review": {
+        "result": "PASS",
+        "note": "Correct financing partners: Capitec and Manati."
+      }
+    },
+    {
+      "question": "What does a red calendar tile mean?",
+      "expected_pages": [
+        9
+      ],
+      "reference_answer": "Incomplete tasks.",
+      "retrieved_sources": [
+        "Page 9"
+      ],
+      "retrieval_hit": true,
+      "retrieved_chunks": [
+        {
+          "page": 9,
+          "chunk_id": "p9-c0",
+          "score": 0.618295
+        }
+      ],
+      "generated_answer": "Red Tiles (Incomplete)",
+      "returned_source": "Page 9",
+      "status": "LIVE_RESPONSE",
+      "model_output": {
+        "found": true,
+        "answer": "Red Tiles (Incomplete)",
+        "chunk_id": "p9-c0"
+      },
+      "manual_review": {
+        "result": "PASS",
+        "note": "Correct interpretation: incomplete."
+      }
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "expected_pages": [],
+      "reference_answer": "I could not find that information in the available knowledge base.",
+      "retrieved_sources": [],
+      "retrieval_hit": null,
+      "retrieved_chunks": [],
+      "generated_answer": "I could not find that information in the available knowledge base.",
+      "returned_source": null,
+      "status": "REFUSED_WITHOUT_LLM",
+      "manual_review": {
+        "result": "PASS",
+        "note": "Correct refusal: unrelated geography is absent."
+      }
+    },
+    {
+      "question": "What is the attendance requirement?",
+      "expected_pages": [],
+      "reference_answer": "I could not find that information in the available knowledge base.",
+      "retrieved_sources": [
+        "Page 11",
+        "Page 12",
+        "Page 15"
+      ],
+      "retrieval_hit": null,
+      "retrieved_chunks": [
+        {
+          "page": 12,
+          "chunk_id": "p12-c0",
+          "score": 0.324143
+        },
+        {
+          "page": 15,
+          "chunk_id": "p15-c1",
+          "score": 0.319288
+        },
+        {
+          "page": 11,
+          "chunk_id": "p11-c0",
+          "score": 0.31331
+        }
+      ],
+      "generated_answer": "I could not find that information in the available knowledge base.",
+      "returned_source": null,
+      "status": "LIVE_RESPONSE",
+      "model_output": {
+        "found": false
+      },
+      "manual_review": {
+        "result": "PASS",
+        "note": "Correct refusal: class times do not establish an attendance requirement."
+      }
+    },
+    {
+      "question": "What is the refund policy?",
+      "expected_pages": [],
+      "reference_answer": "I could not find that information in the available knowledge base.",
+      "retrieved_sources": [],
+      "retrieval_hit": null,
+      "retrieved_chunks": [],
+      "generated_answer": "I could not find that information in the available knowledge base.",
+      "returned_source": null,
+      "status": "REFUSED_WITHOUT_LLM",
+      "manual_review": {
+        "result": "PASS",
+        "note": "Correct refusal: no refund policy is specified."
+      }
+    }
+  ],
+  "provider": "llama_cpp",
+  "review_summary": {
+    "cases": 17,
+    "passed_manual_review": 17,
+    "supported": 14,
+    "unsupported": 3,
+    "note": "Finite test set; no claim of accuracy on every possible question."
+  }
+}

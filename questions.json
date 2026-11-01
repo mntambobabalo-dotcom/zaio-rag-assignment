@@ -1,0 +1,19 @@
+[
+  {"question":"What are the total bootcamp fees?","expected_pages":[16],"reference_answer":"The total fees are R 29,950."},
+  {"question":"When must fees be paid in full?","expected_pages":[16],"reference_answer":"Before orientation on 30 March 2026."},
+  {"question":"What minimum internet speeds are recommended?","expected_pages":[5],"reference_answer":"10 Mbps download and 3 Mbps upload."},
+  {"question":"When are live classes held?","expected_pages":[11],"reference_answer":"For the first 12 weeks, Wednesdays 6–8 pm and Mondays 9–11 am; afterwards Mondays 9–11 am."},
+  {"question":"Where must assignments be submitted?","expected_pages":[13],"reference_answer":"Google Classroom."},
+  {"question":"How much does the final project contribute to the final grade?","expected_pages":[14],"reference_answer":"35%."},
+  {"question":"Who is the lead instructor?","expected_pages":[15],"reference_answer":"Kago Kola."},
+  {"question":"Who is my dedicated tutor?","expected_pages":[20],"reference_answer":"Dave."},
+  {"question":"Which channel is used for communication after orientation?","expected_pages":[18],"reference_answer":"Discord."},
+  {"question":"What do green calendar tiles mean?","expected_pages":[9],"reference_answer":"Same day completion."},
+  {"question":"What is the minimum SSD storage?","expected_pages":[5],"reference_answer":"At least 256 GB is recommended."},
+  {"question":"When are tutor support hours?","expected_pages":[20],"reference_answer":"Tuesdays 2–4 pm and 6–8 pm; Thursdays 10 am–12 pm and 6–8 pm."},
+  {"question":"Which financing partners are available?","expected_pages":[16],"reference_answer":"Capitec and Manati."},
+  {"question":"What does a red calendar tile mean?","expected_pages":[9],"reference_answer":"Incomplete tasks."},
+  {"question":"What is the capital of Japan?","expected_pages":[],"reference_answer":"I could not find that information in the available knowledge base."},
+  {"question":"What is the attendance requirement?","expected_pages":[],"reference_answer":"I could not find that information in the available knowledge base."},
+  {"question":"What is the refund policy?","expected_pages":[],"reference_answer":"I could not find that information in the available knowledge base."}
+]

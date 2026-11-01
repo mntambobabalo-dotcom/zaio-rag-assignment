@@ -1,0 +1,11 @@
+{
+  "url": "http://127.0.0.1:8011/ask",
+  "question": "What are the total bootcamp fees?",
+  "status_code": 200,
+  "response": {
+    "answer": "Total Fees: R 29,950",
+    "source": "Page 16"
+  },
+  "elapsed_seconds": 1139.05,
+  "real_model": true
+}
